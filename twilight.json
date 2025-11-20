@@ -1051,6 +1051,16 @@
             "icon": "sicon-store",
             "path": "announcement-bar",
             "fields": []
+        },
+        {
+            "key": "522dc12b-1709-4909-a22a-5b8d256082ed",
+            "title": {
+                "en": "Banner Hero",
+                "ar": "بطل البانر"
+            },
+            "icon": "sicon-store",
+            "path": "Banner-Hero",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
