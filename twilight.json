@@ -1051,6 +1051,16 @@
             "icon": "sicon-store",
             "path": "Banner-Hero",
             "fields": []
+        },
+        {
+            "key": "eb1b884b-16da-40be-bbcb-c3167848f411",
+            "title": {
+                "en": "shop our best",
+                "ar": "تسوق أفضل ما لدين"
+            },
+            "icon": "sicon-store",
+            "path": "shop-our-best",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
