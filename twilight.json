@@ -1071,6 +1071,16 @@
             "icon": "sicon-store",
             "path": "Magic-water-cream",
             "fields": []
+        },
+        {
+            "key": "c29a6532-7878-4938-a0db-46cf656dad04",
+            "title": {
+                "en": "Exclusive offer",
+                "ar": "عرض حصري"
+            },
+            "icon": "sicon-store",
+            "path": "Exclusive-offer",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
