@@ -1091,6 +1091,16 @@
             "icon": "sicon-store",
             "path": "Customer-Reviews",
             "fields": []
+        },
+        {
+            "key": "6f3e5374-ae80-40f8-89ce-eb2a0626e365",
+            "title": {
+                "en": "Routine section",
+                "ar": "Routine section"
+            },
+            "icon": "sicon-store",
+            "path": "Routine-section",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
