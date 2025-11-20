@@ -1111,6 +1111,16 @@
             "icon": "sicon-store",
             "path": "trust-badges",
             "fields": []
+        },
+        {
+            "key": "75b64a32-5ce3-4683-856b-4b7de1ed472b",
+            "title": {
+                "en": "product static offer section",
+                "ar": "product static offer section"
+            },
+            "icon": "sicon-store",
+            "path": "product-static-offer-section",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
