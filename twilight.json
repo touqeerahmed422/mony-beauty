@@ -1031,6 +1031,16 @@
                     "maxLength": 30
                 }
             ]
+        },
+        {
+            "key": "250ea474-9883-4e53-8bcb-ca9de736cdd2",
+            "title": {
+                "en": "Magicwatercream",
+                "ar": "كريم الماء السحري"
+            },
+            "icon": "sicon-combine_cells",
+            "path": "Magicwatercream",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
