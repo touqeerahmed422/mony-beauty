@@ -1101,6 +1101,16 @@
             "icon": "sicon-store",
             "path": "Routine-section",
             "fields": []
+        },
+        {
+            "key": "08c836a9-6a1a-436e-bb52-2d312d0951e0",
+            "title": {
+                "en": "trust badges",
+                "ar": "trust badges"
+            },
+            "icon": "sicon-store",
+            "path": "trust-badges",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
