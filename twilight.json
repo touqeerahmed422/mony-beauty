@@ -1121,6 +1121,16 @@
             "icon": "sicon-store",
             "path": "product-static-offer-section",
             "fields": []
+        },
+        {
+            "key": "428c4e62-50da-46bd-9866-b2e012261d7e",
+            "title": {
+                "en": "chat whishlist share",
+                "ar": "chat whishlist share"
+            },
+            "icon": "sicon-store",
+            "path": "chat-whishlist-share",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
