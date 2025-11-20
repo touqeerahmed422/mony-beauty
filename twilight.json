@@ -1061,6 +1061,16 @@
             "icon": "sicon-store",
             "path": "shop-our-best",
             "fields": []
+        },
+        {
+            "key": "785a4325-fbaa-4aeb-aeec-9d901d0095c0",
+            "title": {
+                "en": "Magic water cream",
+                "ar": "كريم الماء السحري"
+            },
+            "icon": "sicon-store",
+            "path": "Magic-water-cream",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
