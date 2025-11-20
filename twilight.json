@@ -1033,16 +1033,6 @@
             ]
         },
         {
-            "key": "250ea474-9883-4e53-8bcb-ca9de736cdd2",
-            "title": {
-                "en": "Magicwatercream",
-                "ar": "كريم الماء السحري"
-            },
-            "icon": "sicon-combine_cells",
-            "path": "Magicwatercream",
-            "fields": []
-        },
-        {
             "key": "5ef45c8e-3c99-49bf-b052-97d5e67af130",
             "title": {
                 "en": "announcement bar",
