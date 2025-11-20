@@ -1081,6 +1081,16 @@
             "icon": "sicon-store",
             "path": "Exclusive-offer",
             "fields": []
+        },
+        {
+            "key": "a2bf1cab-adbc-49fa-b27a-2d4887f19e88",
+            "title": {
+                "en": "Customer Reviews",
+                "ar": "Customer Reviews"
+            },
+            "icon": "sicon-store",
+            "path": "Customer-Reviews",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
