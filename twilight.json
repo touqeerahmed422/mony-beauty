@@ -1032,16 +1032,44 @@
                 }
             ]
         },
+       {
+    "key": "5ef45c8e-3c99-49bf-b052-97d5e67af130",
+    "title": {
+        "en": "Announcement Bar",
+        "ar": "شريط الإعلان"
+    },
+    "icon": "sicon-store",
+    "path": "announcement-bar",
+    "fields": [
         {
-            "key": "5ef45c8e-3c99-49bf-b052-97d5e67af130",
-            "title": {
-                "en": "announcement bar",
-                "ar": "شريط الإعلان"
+            "type": "text",
+            "id": "announcement_text",
+            "label": {
+                "en": "Announcement Text",
+                "ar": "نص الإعلان"
             },
-            "icon": "sicon-store",
-            "path": "announcement-bar",
-            "fields": []
+            "default": "Free Shipping on Orders Above 300 SAR"
         },
+        {
+            "type": "color",
+            "id": "announcement_start_color",
+            "label": {
+                "en": "Gradient Start Color",
+                "ar": "لون البداية"
+            },
+            "default": "#FF5F7E"
+        },
+        {
+            "type": "color",
+            "id": "announcement_end_color",
+            "label": {
+                "en": "Gradient End Color",
+                "ar": "لون النهاية"
+            },
+            "default": "#8AB6FF"
+        }
+    ]
+},
         {
             "key": "522dc12b-1709-4909-a22a-5b8d256082ed",
             "title": {
