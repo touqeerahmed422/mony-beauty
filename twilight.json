@@ -1042,20 +1042,13 @@
             "path": "announcement-bar",
             "fields": [
                 {
-                    "id": "text_area-accumnet",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Text Area",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
+                    "id": "description-accumnet",
+                    "type": "static",
+                    "format": "description",
+                    "label": "Description",
                     "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": "600",
-                    "public": true
+                    "variant": "h1",
+                    "icon": "sicon-format-size"
                 }
             ]
         },
