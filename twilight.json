@@ -1054,7 +1054,7 @@
                     "multilanguage": true,
                     "required": false,
                     "minLength": 20,
-                    "maxLength": "500",
+                    "maxLength": "600",
                     "public": true
                 }
             ]
