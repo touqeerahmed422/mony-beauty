@@ -5,9 +5,10 @@
 | cart.items_count | int     |                                 |
 | cart.total       | string  | Formatted total ex: "١٠٠ ر.س"   |
 #}
-{% include 'components/announcement-bar.twig' %}
+
 {% set important_links = theme.settings.get('important_links') %}
 <header class="store-header">
+  {% include 'components/announcement-bar.twig' %}
   {# Top Nav #}
   <div class="top-navbar">
     <div class="container flex justify-between">
