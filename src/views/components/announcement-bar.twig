@@ -1,9 +1,8 @@
-{% if component.announcement_bar_content %}
+{% if component.announcement_bar_enable %}
   <div class="announcement-bar py-2 text-center"
        style="background-color: {{ component.announcement_bar_bg_color }};
         color: {{ component.announcement_bar_text_color }};">
      {{ component.announcement_bar_content }}
-       {{ component.rich_text }}
   </div>
 {% endif %}
 
