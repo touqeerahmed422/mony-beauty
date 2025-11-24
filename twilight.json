@@ -1040,7 +1040,24 @@
             },
             "icon": "sicon-store",
             "path": "announcement-bar",
-            "fields": []
+            "fields": [
+                {
+                    "id": "text_area-accumnet",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Text Area",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": "500",
+                    "public": true
+                }
+            ]
         },
         {
             "key": "522dc12b-1709-4909-a22a-5b8d256082ed",
