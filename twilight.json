@@ -1095,13 +1095,59 @@
             "path": "announcement-bar",
             "fields": [
                 {
-                    "id": "description-accumnet",
-                    "type": "static",
-                    "format": "description",
-                    "label": "Description",
-                    "value": null,
-                    "variant": "h1",
-                    "icon": "sicon-format-size"
+                    "id": "announcement_bar_enable",
+                    "type": "boolean",
+                    "format": "checkbox",
+                    "label": "Enable Announcement Bar",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-check-square",
+                    "value": true,
+                    "selected": true,
+                    "required": false,
+                    "public": true
+                },
+                {
+                    "id": "announcement_bar_content",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Announcement Text",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": "Welcome to our store!",
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": 255,
+                    "public": true
+                },
+                {
+                    "id": "announcement_bar_bg_color",
+                    "type": "string",
+                    "format": "color",
+                    "inputType": "color",
+                    "label": "Background Color",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-format-fill",
+                    "value": "#004956",
+                    "required": false,
+                    "public": true
+                },
+                {
+                    "id": "announcement_bar_text_color",
+                    "type": "string",
+                    "format": "color",
+                    "inputType": "color",
+                    "label": "Text Color",
+                    "description": null,
+                    "labelHTML": null,
+                    "icon": "sicon-format-fill",
+                    "value": "#004956",
+                    "required": false,
+                    "public": true
                 }
             ]
         },
