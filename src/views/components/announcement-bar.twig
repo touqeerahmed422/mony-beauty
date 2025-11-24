@@ -1,0 +1,7 @@
+{% if theme.settings.announcement_bar_enable %}
+  <div class="announcement-bar py-2 text-center"
+       style="background-color: {{ theme.settings.announcement_bar_bg_color | default('#f1c40f') }};
+              color: {{ theme.settings.announcement_bar_text_color | default('#000000') }};">
+    {{ theme.settings.announcement_bar_content | default('Welcome to our store!') | raw }}
+  </div>
+{% endif %}
