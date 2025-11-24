@@ -29,7 +29,7 @@
             "id": "squar_photo_bg_image_size",
             "type": "items",
             "format": "dropdown-list",
-            "label": "طريقة عرض الصور في قسم قائمة عناصر ",
+            "label": "طريقة عرض الصور في قسم قائمة عناصر",
             "description": null,
             "labelHTML": null,
             "icon": "sicon-list",
@@ -214,6 +214,59 @@
             "required": false,
             "value": false,
             "selected": false
+        },
+        {
+            "id": "announcement_bar_enable",
+            "type": "boolean",
+            "format": "checkbox",
+            "label": "Announcement Text",
+            "description": "Toggle to show/hide the announcement bar",
+            "labelHTML": null,
+            "icon": "sicon-check-square",
+            "value": true,
+            "selected": true,
+            "required": false,
+            "public": true
+        },
+        {
+            "id": "announcement_bar_content",
+            "type": "string",
+            "format": "richtext",
+            "label": "Announcement Text",
+            "description": "Welcome to our store!",
+            "labelHTML": "Announcement Text",
+            "placeholder": "Your text here ..",
+            "icon": "sicon-touch-type",
+            "value": "Announcement Text",
+            "multilanguage": false,
+            "required": false,
+            "minLength": 60,
+            "maxLength": 1000,
+            "public": true
+        },
+        {
+            "id": "announcement_bar_bg_color",
+            "type": "string",
+            "format": "color",
+            "inputType": "color",
+            "label": "Background Color",
+            "description": "Background Color",
+            "labelHTML": "Background Color",
+            "icon": "sicon-format-fill",
+            "value": "#004956",
+            "required": false
+        },
+        {
+            "id": "announcement_bar_text_color",
+            "type": "string",
+            "format": "color",
+            "inputType": "color",
+            "label": "Text Color",
+            "description": "Text Color",
+            "labelHTML": "Text Color",
+            "icon": "sicon-format-fill",
+            "value": "#004956",
+            "required": false
         }
     ],
     "components": [
