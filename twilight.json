@@ -1148,6 +1148,21 @@
                     "value": "#004956",
                     "required": false,
                     "public": true
+                },
+                {
+                    "id": "rich_text",
+                    "type": "string",
+                    "format": "richtext",
+                    "label": "Rich Text",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here ..",
+                    "icon": "sicon-touch-type",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 60,
+                    "maxLength": 1000
                 }
             ]
         },
