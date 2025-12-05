@@ -1159,7 +1159,65 @@
             },
             "icon": "sicon-store",
             "path": "Banner-Hero",
-            "fields": []
+            "fields": [
+                {
+                    "id": "text_area",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "hero_1",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": 255
+                },
+                {
+                    "id": "hero_2",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "hero_2",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": 255
+                },
+                {
+                    "id": "hero_3",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "hero_3",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": 30
+                },
+                {
+                    "id": "hero_4",
+                    "type": "string",
+                    "format": "image",
+                    "label": "hero_4",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false
+                }
+            ]
         },
         {
             "key": "eb1b884b-16da-40be-bbcb-c3167848f411",
