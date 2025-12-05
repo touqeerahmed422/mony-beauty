@@ -1165,15 +1165,15 @@
                     "type": "string",
                     "format": "textarea",
                     "label": "All-you-need-is-less.",
-                    "description": "All you need is less.",
+                    "description": null,
                     "labelHTML": null,
                     "placeholder": "All you need is less.",
                     "icon": "sicon-typography",
-                    "value": "All you need is less.",
+                    "value": null,
                     "multilanguage": false,
                     "required": false,
                     "minLength": 20,
-                    "maxLength": "300",
+                    "maxLength": null,
                     "public": true
                 },
                 {
@@ -1181,28 +1181,15 @@
                     "type": "string",
                     "format": "textarea",
                     "label": "Where-Confidence-Meets-Color",
-                    "description": "Where Confidence Meets Color",
+                    "description": null,
                     "labelHTML": null,
                     "placeholder": "Where Confidence Meets Color",
                     "icon": "sicon-typography",
-                    "value": "Where Confidence Meets Color",
+                    "value": null,
                     "multilanguage": false,
                     "required": false,
                     "minLength": 20,
-                    "maxLength": "300",
-                    "public": true
-                },
-                {
-                    "id": "Shop_Now",
-                    "type": "string",
-                    "format": "code",
-                    "label": "Code",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "body { color: green; }",
-                    "icon": "sicon-browser-code",
-                    "value": null,
-                    "required": false,
+                    "maxLength": null,
                     "public": true
                 },
                 {
@@ -1217,6 +1204,21 @@
                     "value": null,
                     "required": false,
                     "public": true
+                },
+                {
+                    "id": "Shop_Now",
+                    "type": "string",
+                    "format": "url",
+                    "inputType": "url",
+                    "label": "URL",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://salla.sa",
+                    "icon": "sicon-link",
+                    "value": null,
+                    "required": false,
+                    "minLength": 6,
+                    "maxLength": null
                 }
             ]
         },
