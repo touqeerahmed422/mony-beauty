@@ -1161,7 +1161,7 @@
             "path": "Banner-Hero",
             "fields": [
                 {
-                    "id": "all-you-need-is-less.",
+                    "id": "all_you_need_is_less",
                     "type": "string",
                     "format": "textarea",
                     "label": "All-you-need-is-less.",
@@ -1177,7 +1177,7 @@
                     "public": true
                 },
                 {
-                    "id": "where-confidence-meets-color",
+                    "id": "where_confidence_meets_color",
                     "type": "string",
                     "format": "textarea",
                     "label": "Where-Confidence-Meets-Color",
@@ -1193,7 +1193,7 @@
                     "public": true
                 },
                 {
-                    "id": "Shop-Now",
+                    "id": "Shop_Now",
                     "type": "string",
                     "format": "code",
                     "label": "Code",
@@ -1206,11 +1206,11 @@
                     "public": true
                 },
                 {
-                    "id": "image-hero",
+                    "id": "image_hero",
                     "type": "string",
                     "format": "image",
                     "label": "Image",
-                    "description": null,
+                    "description": "image_hero",
                     "labelHTML": null,
                     "placeholder": "e.g. https://hostname.com/image.png",
                     "icon": "sicon-image",
