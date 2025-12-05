@@ -1915,9 +1915,6 @@ select {
 .font-semibold {
     font-weight: 600;
 }
-.uppercase {
-    text-transform: uppercase;
-}
 .leading-10 {
     line-height: 2.5rem;
 }
