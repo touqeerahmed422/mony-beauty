@@ -1172,24 +1172,8 @@
                     "value": null,
                     "multilanguage": true,
                     "required": false,
-                    "minLength": 20,
-                    "maxLength": 255
-                },
-                {
-                    "id": "hero_2",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "hero_2",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": 255,
-                    "public": true
+                    "minLength": null,
+                    "maxLength": null
                 },
                 {
                     "id": "hero_3",
@@ -1218,6 +1202,22 @@
                     "icon": "sicon-image",
                     "value": null,
                     "required": false,
+                    "public": true
+                },
+                {
+                    "id": "hero_2",
+                    "type": "string",
+                    "format": "richtext",
+                    "label": "hero_2",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here ..",
+                    "icon": "sicon-touch-type",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": null,
+                    "maxLength": null,
                     "public": true
                 }
             ]
