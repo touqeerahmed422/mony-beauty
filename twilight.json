@@ -1170,7 +1170,7 @@
                     "placeholder": "Your text here",
                     "icon": "sicon-typography",
                     "value": null,
-                    "multilanguage": false,
+                    "multilanguage": true,
                     "required": false,
                     "minLength": 20,
                     "maxLength": 255
@@ -1185,10 +1185,11 @@
                     "placeholder": "Your text here",
                     "icon": "sicon-typography",
                     "value": null,
-                    "multilanguage": false,
+                    "multilanguage": true,
                     "required": false,
                     "minLength": 20,
-                    "maxLength": 255
+                    "maxLength": 255,
+                    "public": true
                 },
                 {
                     "id": "hero_3",
@@ -1203,7 +1204,8 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": 30
+                    "maxLength": 30,
+                    "public": true
                 },
                 {
                     "id": "hero_4",
@@ -1215,7 +1217,8 @@
                     "placeholder": "e.g. https://hostname.com/image.png",
                     "icon": "sicon-image",
                     "value": null,
-                    "required": false
+                    "required": false,
+                    "public": true
                 }
             ]
         },
