@@ -1169,7 +1169,7 @@
                     "labelHTML": null,
                     "placeholder": "All you need is less.",
                     "icon": "sicon-typography",
-                    "value": null,
+                    "value": "text",
                     "multilanguage": false,
                     "required": false,
                     "minLength": 20,
