@@ -1218,7 +1218,8 @@
                     "value": null,
                     "required": false,
                     "minLength": 6,
-                    "maxLength": null
+                    "maxLength": null,
+                    "public": true
                 }
             ]
         },
