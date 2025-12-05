@@ -1159,69 +1159,7 @@
             },
             "icon": "sicon-store",
             "path": "Banner-Hero",
-            "fields": [
-                {
-                    "id": "all_you_need_is_less",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "All-you-need-is-less.",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "All you need is less.",
-                    "icon": "sicon-typography",
-                    "value": "text",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "where_confidence_meets_color",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Where-Confidence-Meets-Color",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Where Confidence Meets Color",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "image_hero",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Image",
-                    "description": "image_hero",
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                },
-                {
-                    "id": "Shop_Now",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "URL",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": 6,
-                    "maxLength": null,
-                    "public": true
-                }
-            ]
+            "fields": []
         },
         {
             "key": "eb1b884b-16da-40be-bbcb-c3167848f411",
