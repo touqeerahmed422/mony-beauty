@@ -1040,7 +1040,24 @@
             },
             "icon": "sicon-store",
             "path": "announcement-bar",
-            "fields": []
+            "fields": [
+                {
+                    "id": "announcement_bar_content",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "announcement_bar_content",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                }
+            ]
         },
         {
             "key": "522dc12b-1709-4909-a22a-5b8d256082ed",
