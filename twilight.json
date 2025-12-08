@@ -1078,7 +1078,8 @@
                     "placeholder": "e.g. https://hostname.com/image.png",
                     "icon": "sicon-image",
                     "value": null,
-                    "required": false
+                    "required": false,
+                    "public": true
                 },
                 {
                     "id": "hero_1",
@@ -1109,7 +1110,8 @@
                     "multilanguage": true,
                     "required": false,
                     "minLength": 20,
-                    "maxLength": null
+                    "maxLength": null,
+                    "public": true
                 },
                 {
                     "id": "hero_3",
