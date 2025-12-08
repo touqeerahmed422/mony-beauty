@@ -1,0 +1,20 @@
+{# Announcement Bar Section #}
+<div class="announcement-bar" style="background: linear-gradient(90deg, {{ announcement_start_color }}, {{ announcement_end_color }});">
+    <p>{{ announcement_text }}</p>
+</div>
+
+<style>
+.announcement-bar {
+    width: 100%;
+    padding: 8px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+}
+</style>
+
+{# Default Settings for Salla Panel #}
+{% set announcement_text = "Free Shipping on Orders Above 300 SAR" %}
+{% set announcement_start_color = "#FF5F7E" %}
+{% set announcement_end_color = "#8AB6FF" %}

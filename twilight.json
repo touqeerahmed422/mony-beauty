@@ -29,7 +29,7 @@
             "id": "squar_photo_bg_image_size",
             "type": "items",
             "format": "dropdown-list",
-            "label": "طريقة عرض الصور في قسم قائمة عناصر",
+            "label": "طريقة عرض الصور في قسم قائمة عناصر ",
             "description": null,
             "labelHTML": null,
             "icon": "sicon-list",
@@ -214,59 +214,6 @@
             "required": false,
             "value": false,
             "selected": false
-        },
-        {
-            "id": "announcement_bar_enable",
-            "type": "boolean",
-            "format": "checkbox",
-            "label": "Announcement Text",
-            "description": "Toggle to show/hide the announcement bar",
-            "labelHTML": null,
-            "icon": "sicon-check-square",
-            "value": true,
-            "selected": true,
-            "required": false,
-            "public": true
-        },
-        {
-            "id": "announcement_bar_content",
-            "type": "string",
-            "format": "richtext",
-            "label": "Announcement Text",
-            "description": "Welcome to our store!",
-            "labelHTML": "Announcement Text",
-            "placeholder": "Your text here ..",
-            "icon": "sicon-touch-type",
-            "value": "Announcement Text",
-            "multilanguage": false,
-            "required": false,
-            "minLength": 60,
-            "maxLength": 1000,
-            "public": true
-        },
-        {
-            "id": "announcement_bar_bg_color",
-            "type": "string",
-            "format": "color",
-            "inputType": "color",
-            "label": "Background Color",
-            "description": "Background Color",
-            "labelHTML": "Background Color",
-            "icon": "sicon-format-fill",
-            "value": "#004956",
-            "required": false
-        },
-        {
-            "id": "announcement_bar_text_color",
-            "type": "string",
-            "format": "color",
-            "inputType": "color",
-            "label": "Text Color",
-            "description": "Text Color",
-            "labelHTML": "Text Color",
-            "icon": "sicon-format-fill",
-            "value": "#004956",
-            "required": false
         }
     ],
     "components": [
@@ -1093,63 +1040,7 @@
             },
             "icon": "sicon-store",
             "path": "announcement-bar",
-            "fields": [
-                {
-                    "id": "announcement_bar_enable",
-                    "type": "boolean",
-                    "format": "checkbox",
-                    "label": "Enable Announcement Bar",
-                    "description": null,
-                    "labelHTML": null,
-                    "icon": "sicon-check-square",
-                    "value": true,
-                    "selected": true,
-                    "required": false,
-                    "public": true
-                },
-                {
-                    "id": "announcement_bar_content",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Announcement Text",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": "Welcome to our store!",
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": 255,
-                    "public": true
-                },
-                {
-                    "id": "announcement_bar_bg_color",
-                    "type": "string",
-                    "format": "color",
-                    "inputType": "color",
-                    "label": "Background Color",
-                    "description": null,
-                    "labelHTML": null,
-                    "icon": "sicon-format-fill",
-                    "value": "#004956",
-                    "required": false,
-                    "public": true
-                },
-                {
-                    "id": "announcement_bar_text_color",
-                    "type": "string",
-                    "format": "color",
-                    "inputType": "color",
-                    "label": "Text Color",
-                    "description": null,
-                    "labelHTML": null,
-                    "icon": "sicon-format-fill",
-                    "value": "#004956",
-                    "required": false,
-                    "public": true
-                }
-            ]
+            "fields": []
         },
         {
             "key": "522dc12b-1709-4909-a22a-5b8d256082ed",
@@ -1159,69 +1050,7 @@
             },
             "icon": "sicon-store",
             "path": "Banner-Hero",
-            "fields": [
-                {
-                    "id": "hero_1",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "sub heading",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": "1",
-                    "maxLength": "1000",
-                    "public": true
-                },
-                {
-                    "id": "hero_2",
-                    "type": "string",
-                    "format": "richtext",
-                    "label": "heading",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here ..",
-                    "icon": "sicon-touch-type",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": "0",
-                    "maxLength": "1000",
-                    "public": true
-                },
-                {
-                    "id": "hero_3",
-                    "type": "string",
-                    "format": "url",
-                    "inputType": "url",
-                    "label": "button",
-                    "description": "shop now",
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://salla.sa",
-                    "icon": "sicon-link",
-                    "value": null,
-                    "required": false,
-                    "minLength": "0",
-                    "maxLength": "1000",
-                    "public": true
-                },
-                {
-                    "id": "hero_4",
-                    "type": "string",
-                    "format": "image",
-                    "label": "image",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                }
-            ]
+            "fields": []
         },
         {
             "key": "eb1b884b-16da-40be-bbcb-c3167848f411",
@@ -1241,66 +1070,7 @@
             },
             "icon": "sicon-store",
             "path": "Magic-water-cream",
-            "fields": [
-                {
-                    "id": "magic-water-cream-1",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Magic-water-cream-1",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "magic-water-cream-2",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Magic-water-cream-2",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                },
-                {
-                    "id": "magic-water-cream-3",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "Magic-water-cream-3",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": true,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "magic-water-cream-4",
-                    "type": "string",
-                    "format": "image",
-                    "label": "Magic-water-cream-4",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                }
-            ]
+            "fields": []
         },
         {
             "key": "c29a6532-7878-4938-a0db-46cf656dad04",
@@ -1361,75 +1131,6 @@
             "icon": "sicon-store",
             "path": "chat-whishlist-share",
             "fields": []
-        },
-        {
-            "key": "dea44bac-d4de-459e-bbff-2aaeed12cecb",
-            "title": {
-                "en": "shop our best lip gloss",
-                "ar": "تحميل تطبيق الجوال"
-            },
-            "icon": "sicon-store",
-            "path": "shop-our-best-lip-gloss",
-            "fields": [
-                {
-                    "id": "shop-our-best-lip-gloss-1",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "shop-our-best-lip-gloss-1",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "shop-our-best-lip-gloss-2",
-                    "type": "string",
-                    "format": "image",
-                    "label": "shop-our-best-lip-gloss-2",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                },
-                {
-                    "id": "shop-our-best-lip-gloss-3",
-                    "type": "string",
-                    "format": "textarea",
-                    "label": "shop-our-best-lip-gloss-3",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "Your text here",
-                    "icon": "sicon-typography",
-                    "value": null,
-                    "multilanguage": false,
-                    "required": false,
-                    "minLength": 20,
-                    "maxLength": null,
-                    "public": true
-                },
-                {
-                    "id": "shop-our-best-lip-gloss-4",
-                    "type": "string",
-                    "format": "image",
-                    "label": "shop-our-best-lip-gloss-4",
-                    "description": null,
-                    "labelHTML": null,
-                    "placeholder": "e.g. https://hostname.com/image.png",
-                    "icon": "sicon-image",
-                    "value": null,
-                    "required": false,
-                    "public": true
-                }
-            ]
         }
     ],
     "support_url": "https://frenco.ae/",
