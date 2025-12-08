@@ -1241,7 +1241,66 @@
             },
             "icon": "sicon-store",
             "path": "Magic-water-cream",
-            "fields": []
+            "fields": [
+                {
+                    "id": "magic-water-cream-1",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Magic-water-cream-1",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                },
+                {
+                    "id": "magic-water-cream-2",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Magic-water-cream-2",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false,
+                    "public": true
+                },
+                {
+                    "id": "magic-water-cream-3",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "Magic-water-cream-3",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                },
+                {
+                    "id": "magic-water-cream-4",
+                    "type": "string",
+                    "format": "image",
+                    "label": "Magic-water-cream-4",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false,
+                    "public": true
+                }
+            ]
         },
         {
             "key": "c29a6532-7878-4938-a0db-46cf656dad04",
