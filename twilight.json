@@ -1370,7 +1370,66 @@
             },
             "icon": "sicon-store",
             "path": "shop-our-best-lip-gloss",
-            "fields": []
+            "fields": [
+                {
+                    "id": "shop-our-best-lip-gloss-1",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "shop-our-best-lip-gloss-1",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                },
+                {
+                    "id": "shop-our-best-lip-gloss-2",
+                    "type": "string",
+                    "format": "image",
+                    "label": "shop-our-best-lip-gloss-2",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false,
+                    "public": true
+                },
+                {
+                    "id": "shop-our-best-lip-gloss-3",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "shop-our-best-lip-gloss-3",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": false,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                },
+                {
+                    "id": "shop-our-best-lip-gloss-4",
+                    "type": "string",
+                    "format": "image",
+                    "label": "shop-our-best-lip-gloss-4",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false,
+                    "public": true
+                }
+            ]
         }
     ],
     "support_url": "https://frenco.ae/",
