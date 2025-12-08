@@ -1147,7 +1147,37 @@
             },
             "icon": "sicon-store",
             "path": "Magic-water-cream",
-            "fields": []
+            "fields": [
+                {
+                    "id": "marqee-text-1",
+                    "type": "string",
+                    "format": "textarea",
+                    "label": "marqee-text-1",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "Your text here",
+                    "icon": "sicon-typography",
+                    "value": null,
+                    "multilanguage": true,
+                    "required": false,
+                    "minLength": 20,
+                    "maxLength": null,
+                    "public": true
+                },
+                {
+                    "id": "marqee-text-image",
+                    "type": "string",
+                    "format": "image",
+                    "label": "marqee-text-Image",
+                    "description": null,
+                    "labelHTML": null,
+                    "placeholder": "e.g. https://hostname.com/image.png",
+                    "icon": "sicon-image",
+                    "value": null,
+                    "required": false,
+                    "public": true
+                }
+            ]
         },
         {
             "key": "c29a6532-7878-4938-a0db-46cf656dad04",
