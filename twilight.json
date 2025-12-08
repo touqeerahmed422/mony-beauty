@@ -1361,6 +1361,16 @@
             "icon": "sicon-store",
             "path": "chat-whishlist-share",
             "fields": []
+        },
+        {
+            "key": "dea44bac-d4de-459e-bbff-2aaeed12cecb",
+            "title": {
+                "en": "shop our best lip gloss",
+                "ar": "تحميل تطبيق الجوال"
+            },
+            "icon": "sicon-store",
+            "path": "shop-our-best-lip-gloss",
+            "fields": []
         }
     ],
     "support_url": "https://frenco.ae/",
